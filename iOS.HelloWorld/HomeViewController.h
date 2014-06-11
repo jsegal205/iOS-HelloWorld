@@ -11,4 +11,9 @@
 @interface HomeViewController : UIViewController
 
 -(void)sampleMethod;
+- (IBAction)helloWorldAction:(id)sender;
+- (IBAction)goodnightMoonAction:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelObject;
+
 @end
