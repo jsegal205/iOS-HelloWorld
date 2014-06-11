@@ -19,6 +19,8 @@
 		380B967A1947F31700CFFC7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380B96621947F31700CFFC7B /* UIKit.framework */; };
 		380B96821947F31700CFFC7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 380B96801947F31700CFFC7B /* InfoPlist.strings */; };
 		380B96841947F31700CFFC7B /* iOS_HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B96831947F31700CFFC7B /* iOS_HelloWorldTests.m */; };
+		380B96901947F3A000CFFC7B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B968E1947F3A000CFFC7B /* HomeViewController.m */; };
+		380B96911947F3A000CFFC7B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380B968F1947F3A000CFFC7B /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		380B967F1947F31700CFFC7B /* iOS.HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS.HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		380B96811947F31700CFFC7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		380B96831947F31700CFFC7B /* iOS_HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HelloWorldTests.m; sourceTree = "<group>"; };
+		380B968D1947F3A000CFFC7B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		380B968E1947F3A000CFFC7B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		380B968F1947F3A000CFFC7B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		380B96521947F31700CFFC7B = {
 			isa = PBXGroup;
 			children = (
+				380B968D1947F3A000CFFC7B /* HomeViewController.h */,
+				380B968E1947F3A000CFFC7B /* HomeViewController.m */,
+				380B968F1947F3A000CFFC7B /* HomeViewController.xib */,
 				380B96641947F31700CFFC7B /* iOS.HelloWorld */,
 				380B967D1947F31700CFFC7B /* iOS.HelloWorldTests */,
 				380B965D1947F31700CFFC7B /* Frameworks */,
@@ -221,6 +229,7 @@
 			files = (
 				380B96691947F31700CFFC7B /* InfoPlist.strings in Resources */,
 				380B96711947F31700CFFC7B /* Images.xcassets in Resources */,
+				380B96911947F3A000CFFC7B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				380B966F1947F31700CFFC7B /* AppDelegate.m in Sources */,
 				380B966B1947F31700CFFC7B /* main.m in Sources */,
+				380B96901947F3A000CFFC7B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
