@@ -35,6 +35,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)goodnightMoonAction:(id)sender {
+    labelObject.text = @"Goodnight Moon";
 }
 
 - (void)sampleMethod{
@@ -42,6 +43,7 @@
 }
 
 - (IBAction)helloWorldAction:(id)sender {
+    labelObject.text = @"Hello World";
 }
 
 @end
