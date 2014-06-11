@@ -10,4 +10,5 @@
 
 @interface HomeViewController : UIViewController
 
+-(void)sampleMethod;
 @end
